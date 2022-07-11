@@ -1,0 +1,22 @@
+.NewTask{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 10px;
+    font-size: 1.5rem;
+}
+
+.NewTask label{
+    align-self: left;
+    font-weight: bold;
+}
+
+.NewTask input{
+    align-self: center;
+    background-color: rgba(202, 194, 183, 0.842);
+    border: none;
+    height: 3rem;
+    width: 100%;
+    border-radius: 6px;
+    padding-left: 6px;
+}
